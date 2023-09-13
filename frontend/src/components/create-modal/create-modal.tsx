@@ -7,6 +7,7 @@ import "./modal.css";
 interface InputProps {
     label: string,
     value: string | number,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     updateValue(value: any): void
 }   
 
@@ -44,7 +45,7 @@ export function CreateModal({ closeModal }: ModalProps){
     useEffect(() => {
         if(!isSuccess) return 
         closeModal();
-    }, [isSuccess])
+    }, [closeModal, isSuccess])
 
     return(
         <div className="modal-overlay">
