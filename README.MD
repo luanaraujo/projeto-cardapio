@@ -11,7 +11,7 @@
 ## Imagens e gifs do programa
 
 <p align="center">
-  <img alt="Web" src="src/assets/site.png">
+  <img alt="Web" src="frontend/src/assets/site.png">
 </p>
 
 <br>
