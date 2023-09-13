@@ -8,7 +8,7 @@
   <a href="#-tecnologias">Tecnologias</a>
 </p>
 
-## Imagens e gifs do programa
+## Imagem do programa
 
 <p align="center">
   <img alt="Web" src="frontend/src/assets/site.png">
